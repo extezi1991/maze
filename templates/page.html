@@ -1,0 +1,493 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<title>Maze | Cloud Share</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- //for-mobile-apps -->
+<link rel="stylesheet" href="{% static "main_page/css/swipebox.css" %}">
+<link href="{% static "main_page/css/bootstrap.css" %}" rel="stylesheet" type="text/css" media="all" />
+<link href="{% static "main_page/css/style.css" %}" rel="stylesheet" type="text/css" media="all" />
+<!-- js -->
+<script type="text/javascript" src={% static "main_page/js/jquery-2.1.4.min.js" %}></script>
+<!-- //js -->
+<!--animate-->
+<link href="{% static 'main_page/css/animate.css' %}" rel="stylesheet" type="text/css" media="all">
+<script src="{% static 'main_page/js/wow.min.js' %}"></script>
+	<script>
+		 new WOW().init();
+	</script>
+<!--//end-animate-->
+<link href='//fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<script src="{% static 'main_page/js/responsiveslides.min.js' %}"></script>
+		<!-- swipe box js -->
+			<script src="{% static 'main_page/js/jquery.swipebox.min.js' %}"></script>
+				<script type="text/javascript">
+					jQuery(function($) {
+						$(".swipebox").swipebox();
+					});
+			</script>
+		<!-- //swipe box js -->
+	<!-- start-smoth-scrolling -->
+		<script type="text/javascript" src="{% static 'main_page/js/move-top.js' %}"></script>
+		<script type="text/javascript" src="{% static 'main_page/js/easing.js' %}"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+	<!-- start-smoth-scrolling -->
+
+</head>
+<body>
+<!--banner-->
+<div class="banner">
+	<div class="container">
+			<div class="header-nav">
+						<nav class="navbar navbar-default">
+							<!-- Brand and toggle get grouped for better mobile display -->
+							<div class="navbar-header logo">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+									<span class="sr-only">Навигация</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+								<h1>
+
+
+
+
+									<a class="navbar-brand link link--yaku" href=" "><span>M</span><span>A</span><span>Z</span><span>E</span></a>
+								</h1>
+                                <a class="navbar-brand link link--yaku-small" href=" "><small>надежная защита Вашего бизнеса</small></a>
+
+								
+							</div>
+							<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+								<nav class="cl-effect-1">
+									<ul class="nav navbar-nav ">
+										<li><a class="hvr-overline-from-left button2 active scroll" href="page.html">Домашняя</a></li>
+										<li><a class="hvr-overline-from-left button2 scroll" href="#about">O нас</a></li>
+										<li><a class="hvr-overline-from-left button2 scroll" href="#team">Команда</a></li>
+										<li><a class="hvr-overline-from-left button2 scroll" href="#partners">Партнеры</a></li>
+
+										<li><a class="hvr-overline-from-left button2 scroll" href="#portfolio">Галерея</a></li>
+										<li><a class="hvr-overline-from-left button2 scroll" href="#contact">Контакты</a></li>
+									</ul>
+								</nav>
+							</div><!-- /navbar-collapse -->
+						</nav>
+			</div>
+				<script>
+						// You can also use "$(window).load(function() {"
+						$(function () {
+						 // Slideshow 4
+						$("#slider3").responsiveSlides({
+							auto: true,
+							pager: false,
+							nav: false,
+							speed: 500,
+							namespace: "callbacks",
+							before: function () {
+						$('.events').append("<li>before event fired.</li>");
+						},
+						after: function () {
+							$('.events').append("<li>after event fired.</li>");
+							}
+							});
+						});
+				</script>
+		<div  id="top" class="callbacks_container">
+			<ul class="rslides" id="slider3">
+				<li>
+					<div class="banner-info">
+						<h3>Анонимность.<span>Хостинг построеный на виртуальной кибер-структуре</span></h3>
+						<p>Для тех, кто хочет быть свободен</p>
+						<div class="clearfix"></div>
+						<div class="arrow text-center"><a class="scroll" href="#about"><img src="{% static 'main_page/images/icon.png' %}" alt=" " /></a></div>
+					</div>
+				</li>
+				<li>
+					<div class="banner-info">
+						<h3>Безопасность. <span>Хранение Вашей информации с возможностью шифрования</span></h3>
+						<p>Для тех, кто хочет быть свободен</p>
+						<div class="clearfix"></div>
+						<div class="arrow text-center"><a class="scroll" href="#about"><img src="{% static 'main_page/images/icon.png' %}" alt=" " /></a></div>
+					</div>
+				</li>
+                <li>
+					<div class="banner-info">
+						<h3>Криптовалюта.<span>Обмен на самых выгодных условиях</span></h3>
+						<p>Для тех, кто хочет быть свободен</p>
+						<div class="clearfix"></div>
+						<div class="arrow text-center"><a class="scroll" href="#about"><img src="{% static 'main_page/images/icon.png' %}" alt=" " /></a></div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<!--//banner-->
+<!-- about -->
+<div id="about" class="about all_pad text-center">
+	<div class="container">
+		<h3 class="title">О MAZE</h3>
+		<p class="para">Duis aute irure dolor reprehenderit<span> in voluptate velit</span> esse cillum dolore eu 
+		fugiat nulla pariatur. Excepteur sint occaecat.</p>
+		<div class="col-md-4 abt-grid">
+			<div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7b">
+				<a href="#" class="hi-icon icon1"></a>
+			</div>
+			<h4>Облачное хранилище</h4>
+			<p>Duis aute irure dolor reprehenderit in voluptate velit esse cillum dolore eu 
+		fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+		</div>
+		<div class="col-md-4 abt-grid yes_marg">
+			<div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7b">
+				<a href="#" class="hi-icon icon2"></a>
+			</div>
+			<h4>Хостинг</h4>
+			<p>Duis aute irure dolor reprehenderit in voluptate velit esse cillum dolore eu 
+		fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+		</div>
+		<div class="col-md-4 abt-grid">
+			<div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7b">
+				<a href="#" class="hi-icon icon3"></a>
+			</div>
+			<h4>Обмен криптовалюты</h4>
+			<p>Duis aute irure dolor reprehenderit in voluptate velit esse cillum dolore eu 
+		fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<!-- //about -->
+
+<!-- philosophy -->
+<div class="philosophy all_pad text-center">
+	<div class="container">
+		<h3 class="title">Наша философия - это</h3>
+		<p class="para">Duis aute irure dolor reprehenderit<span> in voluptate velit</span> esse cillum dolore eu 
+		fugiat nulla pariatur. Excepteur sint occaecat.</p>
+	</div>
+</div>	
+<!-- //philosophy -->
+
+<!-- team -->
+<div id="team" class="team all_pad text-center">
+	<div class="container">
+		<h3 class="title">Наша команда</h3>
+		<p class="para">Duis aute irure dolor reprehenderit<span> in voluptate velit</span> esse cillum dolore eu 
+		fugiat nulla pariatur. Excepteur sint occaecat.</p>
+			<div class="col-md-3 about-poleft">
+				<div class="about_img"><img src="{% static 'main_page/images/team1.jpg' %}" alt="">
+				  <h5>Victoria<span>Web Designer</span></h5>
+				  <div class="about_opa">
+					<ul class="fb_icons2 text-center">
+						<li><a class="fb" href="#"></a></li>
+						<li><a class="twit" href="#"></a></li>
+					</ul>
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-3 about-poleft yes_marg">
+				<div class="about_img"><img src="{% static 'main_page/images/team2.jpg' %}" alt="">
+				  <h5>Thompson<span>Manager</span></h5>
+				  <div class="about_opa">
+					<ul class="fb_icons2 text-center">
+						<li><a class="fb" href="#"></a></li>
+						<li><a class="twit" href="#"></a></li>
+					</ul>
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-3 about-poleft yes_marg">
+				<div class="about_img"><img src="{% static 'main_page/images/team4.jpg' %}" alt="">
+				  <h5>Nick Smith<span>Developer</span></h5>
+				  <div class="about_opa">
+					<ul class="fb_icons2 text-center">
+						<li><a class="fb" href="#"></a></li>
+						<li><a class="twit" href="#"></a></li>
+					</ul>
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-3 about-poleft ">
+				<div class="about_img"><img src="{% static 'main_page/images/team3.jpg' %}" alt="">
+				  <h5>Patrick<span>Assistant</span></h5>
+				  <div class="about_opa">
+					<ul class="fb_icons2 text-center">
+						<li><a class="fb" href="#"></a></li>
+						<li><a class="twit" href="#"></a></li>
+					</ul>
+				  </div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+	</div>
+</div>
+<!-- //team -->
+<!-- //Carousel -->
+<div id="partners" class="container">
+    <div class="col-md-12">
+         <center><h1>Наши партнеры</h1></center>
+
+        <div class="well">
+            <div id="myCarousel" class="carousel slide">
+
+                <!-- Carousel items -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <div class="row">
+                            <div class="col-sm-3"><a href="#x"><img src="http://placehold.it/250x250" alt="Image" class="img-responsive"></a>
+                            </div>
+                            <div class="col-sm-3"><a href="#x"><img src="http://placehold.it/250x250" alt="Image" class="img-responsive"></a>
+                            </div>
+                            <div class="col-sm-3"><a href="#x"><img src="http://placehold.it/250x250" alt="Image" class="img-responsive"></a>
+                            </div>
+                            <div class="col-sm-3"><a href="#x"><img src="http://placehold.it/250x250" alt="Image" class="img-responsive"></a>
+                            </div>
+                        </div>
+                        <!--/row-->
+                    </div>
+                    <!--/item-->
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-sm-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" class="img-responsive"></a>
+                            </div>
+                            <div class="col-sm-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" class="img-responsive"></a>
+                            </div>
+                            <div class="col-sm-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" class="img-responsive"></a>
+                            </div>
+                            <div class="col-sm-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" class="img-responsive"></a>
+                            </div>
+                        </div>
+                        <!--/row-->
+                    </div>
+                    <!--/item-->
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-sm-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" class="img-responsive"></a>
+                            </div>
+                            <div class="col-sm-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" class="img-responsive"></a>
+                            </div>
+                            <div class="col-sm-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" class="img-responsive"></a>
+                            </div>
+                            <div class="col-sm-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" class="img-responsive"></a>
+                            </div>
+                        </div>
+                        <!--/row-->
+                    </div>
+                    <!--/item-->
+                </div>
+                <!--/carousel-inner--> <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
+
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+            </div>
+        </div>
+        <!--/well-->
+    </div>
+</div>
+<!-- //Carousel -->
+
+<!-- //services -->
+<!-- portfolio -->
+<div id="portfolio" class="portfolio all_pad text-center">
+	<div class="container">
+		<h3 class="title">Галерея</h3>
+		<p class="para">Duis aute irure dolor reprehenderit<span> in voluptate velit</span> esse cillum dolore eu 
+		fugiat nulla pariatur. Excepteur sint occaecat.</p>
+        <div class="filtr-container ">
+                <div class=" col-md-6 filtr-item baner-top" data-category="1, 5" data-sort="Busy streets">
+					<a href="{% static 'main_page/images/g1.jpg' %}" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="{% static 'main_page/images/g1.jpg' %}" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>CONSORTIUM</h4>
+										<span class="divider"></span>
+										<p>Sit accusamus, vel blanditiis iure minima ipsa molestias minus laborum velit, nulla nisi hic quasi enim.</p>
+										<span class="divider"></span>
+									</div>
+								</div>
+							</div>
+					</a>
+                </div>
+                <div class="col-md-6 filtr-item baner-top" data-category="2, 5" data-sort="Luminous night">
+					<a href="{% static 'main_page/images/g2.jpg' %}" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="{% static 'main_page/images/g2.jpg' %}" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>MAZE</h4>
+										<span class="divider"></span>
+										<p>Sit accusamus, vel blanditiis iure minima ipsa molestias minus laborum velit, nulla nisi hic quasi enim.</p>
+										<span class="divider"></span>
+									</div>
+								</div>
+							</div>
+					</a>
+                </div>
+				<div class="col-md-4 filtr-item baner-top ban-mar" data-category="3, 4" data-sort="Industrial site">
+					<a href="{% static 'main_page/images/g3.jpg' %}" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="{% static 'main_page/images/g3.jpg' %}" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>MAZE</h4>
+										<span class="divider"></span>
+										<p>Sit accusamus, vel blanditiis iure minima ipsa molestias.</p>
+										<span class="divider"></span>
+									</div>
+								</div>
+							</div>
+					</a>
+                </div>
+                <div class="col-md-4 filtr-item baner-top ban-mar" data-category="2, 4" data-sort="Peaceful lake">
+					<a href="{% static 'main_page/images/g4.jpg' %}" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="{% static 'main_page/images/g4.jpg' %}" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>MAZE</h4>
+										<span class="divider"></span>
+										<p>Sit accusamus, vel blanditiis iure minima ipsa molestias.</p>
+										<span class="divider"></span>
+									</div>
+								</div>
+							</div>
+					</a>
+                </div>
+                <div class="col-md-4  filtr-item baner-top ban-mar" data-category="1, 5" data-sort="City lights">
+                    <a href="{% static 'main_page/images/g5.jpg' %}" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="{% static 'main_page/images/g5.jpg' %}" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>MAZE</h4>
+										<span class="divider"></span>
+										<p>Sit accusamus, vel blanditiis iure minima ipsa molestias.</p>
+										<span class="divider"></span>
+									</div>
+								</div>
+							</div>
+					</a>
+                </div>
+                <div class="col-md-6 filtr-item baner-top" data-category="1, 4" data-sort="City wonders">
+					<a href="{% static 'main_page/images/g6.jpg' %}" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="{% static 'main_page/images/g6.jpg' %}" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>MAZE</h4>
+										<span class="divider"></span>
+										<p>Sit accusamus, vel blanditiis iure minima ipsa molestias minus laborum velit, nulla nisi hic quasi enim.</p>
+										<span class="divider"></span>
+									</div>
+								</div>
+							</div>
+					</a>
+                </div>
+                <div class=" col-md-6 filtr-item baner-top" data-category="3" data-sort="In production">
+					<a href="{% static 'main_page/images/g3.jpg' %}" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="{% static 'main_page/images/g3.jpg' %}" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>MAZE</h4>
+										<span class="divider"></span>
+										<p>Sit accusamus, vel blanditiis iure minima ipsa molestias minus laborum velit, nulla nisi hic quasi enim.</p>
+										<span class="divider"></span>
+									</div>
+								</div>
+							</div>
+					</a>
+                </div>
+                
+               
+               <div class="clearfix"> </div>
+           
+		</div> 
+	</div>
+</div>
+<!-- //portfolio -->
+<!-- contact -->
+<div id="contact" class="contact">
+		<div class="col-md-4 contact_left text-center">
+			<ul>
+				<li><a class="fb" href="#"></a></li>
+				<li><a class="twit" href="#"></a></li>
+				<li><a class="goog" href="#"></a></li>
+				<li><a class="drib" href="#"></a></li>
+				<li><a class="pin" href="#"></a></li>
+			</ul>
+		</div>
+		<div class="col-md-8 contact_right text-center">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d2482.432383990807!2d0.028213999961443994!3d51.52362882484525!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1423469959819" style="border:0"></iframe>
+			<div class="map">
+				<h3 class="title">Контакты</h3>
+				<p class="para">Duis aute irure dolor reprehenderit<span> in voluptate velit</span> esse cillum dolore eu 
+				fugiat.</p>
+				<ul class="contact-list text-left">
+					<li>756 Global Place, New York.</li>
+					<li>+7(888)91-34-34</li>
+					<li><a href="mailto:example@mail.com">mail@example.com</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+</div>
+<!-- //contact -->
+<!-- footer -->
+<div class="footer">
+	<div class="container">
+		<form action="#" method="post">
+			<div class="col-md-6 footer-left">
+				<input type="text" value="Name" name="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
+				<input type="email" value="Email" name="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+				<input type="text" value="Mobile Number" name="Mobile Number" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Mobile Number';}" required="">
+			</div>
+			<div class="col-md-6 footer-right">			
+				<textarea name="Message..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>	
+				<input type="submit" value="Submit Now">	
+			</div>
+			<div class="clearfix"></div>
+				
+		</form>
+		<p class="copy-rights">&copy; 2018 MAZE. Все права защищены | Разработка <a href="#"> IDroid</a></p>
+
+	</div>
+</div>
+<!-- //footer -->
+<script type="text/javascript" src="{% static 'main_page/js/bootstrap-3.1.1.min.js' %}"></script>
+ <!-- JQUERY -->
+
+
+<!-- smooth scrolling -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+		/*
+			var defaults = {
+			containerID: 'toTop', // fading element id
+			containerHoverID: 'toTopHover', // fading element hover id
+			scrollSpeed: 1200,
+			easingType: 'linear' 
+			};
+		*/								
+		$().UItoTop({ easingType: 'easeOutQuart' });
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!-- //smooth scrolling -->
+
+</body>
+</html>
