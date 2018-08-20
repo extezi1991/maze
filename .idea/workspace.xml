@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10d27576-aadf-4457-aed0-24512902c008" name="Default" comment="" />
+    <list default="true" id="10d27576-aadf-4457-aed0-24512902c008" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_page/static/main_page/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/main_page/static/main_page/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_page/static/main_page/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/main_page/static/main_page/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/page.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,20 +19,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="page.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="page.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="68" column="43" lean-forward="true" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="76" />
+            <state relative-caret-position="271">
+              <caret line="423" column="6" lean-forward="true" selection-start-line="423" selection-start-column="6" selection-end-line="423" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main_page/static/main_page/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="63" column="24" lean-forward="true" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
+            <state relative-caret-position="76">
+              <caret line="2272" column="1" lean-forward="true" selection-start-line="2272" selection-start-column="1" selection-end-line="2272" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -35,8 +40,8 @@
       <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main_page/static/main_page/css/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="4082" column="22" selection-start-line="4082" selection-start-column="22" selection-end-line="4082" selection-end-column="22" />
+            <state relative-caret-position="180">
+              <caret line="5515" column="14" lean-forward="true" selection-start-line="5515" selection-start-column="14" selection-end-line="5515" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -55,6 +60,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -62,9 +70,10 @@
         <option value="$PROJECT_DIR$/project_maze/settings.py" />
         <option value="$PROJECT_DIR$/main_page/urls.py" />
         <option value="$PROJECT_DIR$/main_page/views.py" />
-        <option value="$PROJECT_DIR$/templates/page.html" />
+        <option value="$PROJECT_DIR$/main_page/static/main_page/css/styles.css" />
         <option value="$PROJECT_DIR$/main_page/static/main_page/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/main_page/static/main_page/css/style.css" />
+        <option value="$PROJECT_DIR$/templates/page.html" />
       </list>
     </option>
   </component>
@@ -77,10 +86,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="width" value="1386" />
     <option name="height" value="788" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -161,7 +171,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="navbar-header&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="panel-gr&#9;null&#9;null&#10;panel-g&#9;null&#9;null&#10;navbar-header&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -169,11 +179,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\IDroid\PycharmProjects\project_maze\main_page\static\main_page\less" />
+      <recent name="C:\Users\IDroid\PycharmProjects\project_maze\main_page\static\main_page" />
       <recent name="C:\Users\IDroid\PycharmProjects\project_maze\main_page\static\main_page\js" />
+      <recent name="C:\Users\IDroid\PycharmProjects\project_maze\main_page\static\main_page\less" />
       <recent name="C:\Users\IDroid\PycharmProjects\project_maze\main_page\static\main_page\images" />
       <recent name="C:\Users\IDroid\PycharmProjects\project_maze\main_page\static\main_page\fonts" />
-      <recent name="C:\Users\IDroid\PycharmProjects\project_maze\main_page\static\main_page\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -232,17 +242,17 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32900432" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -259,15 +269,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main_page/static/main_page/images/social.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main_page/static/main_page/images/team1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main_page/static/main_page/images/social2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/main_page/static/main_page/images/g6.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -285,44 +286,26 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/main_page/static/main_page/js/owl.carousel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/main_page/static/main_page/less/responsive.less">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/main_page/static/main_page/images/advantage_1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main_page/static/main_page/images/advantage_2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main_page/static/main_page/images/advantage_3.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main_page/static/main_page/images/advantage_4.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/main_page/static/main_page/images/advantage_1.png" />
+    <entry file="file://$PROJECT_DIR$/main_page/static/main_page/images/advantage_2.png" />
+    <entry file="file://$PROJECT_DIR$/main_page/static/main_page/images/advantage_3.png" />
+    <entry file="file://$PROJECT_DIR$/main_page/static/main_page/images/advantage_4.png" />
     <entry file="file://$PROJECT_DIR$/main_page/static/main_page/images/about.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/main_page/static/main_page/images/bg.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/main_page/static/main_page/images/bg.jpg" />
     <entry file="file://$PROJECT_DIR$/main_page/static/main_page/images/ban2.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/main_page/static/main_page/images/c1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/main_page/static/main_page/images/favicon.ico">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/main_page/static/main_page/images/favicon.ico" />
     <entry file="file://$PROJECT_DIR$/main_page/static/main_page/images/close.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -377,9 +360,7 @@
     <entry file="file://$PROJECT_DIR$/main_page/static/main_page/images/loading.gif">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/main_page/static/main_page/images/logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/main_page/static/main_page/images/logo.png" />
     <entry file="file://$PROJECT_DIR$/main_page/static/main_page/images/pic3.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -404,27 +385,40 @@
     <entry file="file://$PROJECT_DIR$/main_page/static/main_page/images/member.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/main_page/static/main_page/bootstrap/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_page/static/main_page/js/jquery-1.10.2.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_page/static/main_page/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="99" column="1" selection-start-line="50" selection-end-line="109" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main_page/static/main_page/images/pic5.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/main_page/static/main_page/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="4082" column="22" selection-start-line="4082" selection-start-column="22" selection-end-line="4082" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="68" column="43" lean-forward="true" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="76" />
+        <state relative-caret-position="180">
+          <caret line="5515" column="14" lean-forward="true" selection-start-line="5515" selection-start-column="14" selection-end-line="5515" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main_page/static/main_page/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="63" column="24" lean-forward="true" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
+        <state relative-caret-position="76">
+          <caret line="2272" column="1" lean-forward="true" selection-start-line="2272" selection-start-column="1" selection-end-line="2272" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="423" column="6" lean-forward="true" selection-start-line="423" selection-start-column="6" selection-end-line="423" selection-end-column="6" />
         </state>
       </provider>
     </entry>
