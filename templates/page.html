@@ -239,6 +239,174 @@
 	</div>
 </div>
 <!-- //team -->
+
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="container dhn-info">
+
+
+
+    <!-- Timeline -->
+    <div class="timeline dhn-text">
+
+        <!-- Line component -->
+        <div class="line text-muted"></div>
+
+        <!-- Separator -->
+        <div class="separator text-muted">
+            <center><time>Roadmap</time></center>
+        </div>
+        <!-- /Separator -->
+
+               <!-- Panel -->
+        <article class="panel panel-info panel-outline">
+
+            <!-- Icon -->
+            <div class="panel-heading icon">
+                <i class="glyphicon glyphicon-info-sign"></i>
+            </div>
+            <!-- /Icon -->
+
+            <!-- Body -->
+            <div class="panel-body">
+                <p>Q1 - Q2 2017</p>
+              <span>Preparation and planning to <b>CrudeCoin</b>.</span>
+
+            </div>
+            <!-- /Body -->
+
+        </article>
+        <!-- /Panel -->
+
+               <!-- Panel -->
+        <article class="panel panel-info panel-outline">
+
+            <!-- Icon -->
+            <div class="panel-heading icon">
+                <i class="glyphicon glyphicon-info-sign"></i>
+            </div>
+            <!-- /Icon -->
+
+            <!-- Body -->
+            <div class="panel-body">
+                <span>Q3- Q4 2017</span>
+              <p>Whitepaper V1 / team build.</p>
+            </div>
+            <!-- /Body -->
+
+        </article>
+        <!-- /Panel -->
+
+                       <!-- Panel -->
+        <article class="panel panel-info panel-outline">
+
+            <!-- Icon -->
+            <div class="panel-heading icon">
+                <i class="glyphicon glyphicon-info-sign"></i>
+            </div>
+            <!-- /Icon -->
+
+            <!-- Body -->
+            <div class="panel-body">
+              <span>Q1 2018</span>
+              <p>Whitepaper  V2 / Pre-STO / DAO development.</p>
+
+            </div>
+            <!-- /Body -->
+
+        </article>
+        <!-- /Panel -->
+
+                       <!-- Panel -->
+        <article class="panel panel-info panel-outline">
+
+            <!-- Icon -->
+            <div class="panel-heading icon">
+                <i class="glyphicon glyphicon-info-sign"></i>
+            </div>
+            <!-- /Icon -->
+
+            <!-- Body -->
+            <div class="panel-body">
+              <span>Q2 2018</span>
+              <p>Product development / Early marketing campaign.</p>
+
+            </div>
+            <!-- /Body -->
+
+        </article>
+        <!-- /Panel -->
+
+                       <!-- Panel -->
+        <article class="panel panel-info panel-outline">
+
+            <!-- Icon -->
+            <div class="panel-heading icon">
+                <i class="glyphicon glyphicon-info-sign"></i>
+            </div>
+            <!-- /Icon -->
+
+            <!-- Body -->
+            <div class="panel-body">
+                <span>Q3 2018</span>
+              <p>Full product launch / Main STO / Contract input.</p>
+
+            </div>
+            <!-- /Body -->
+
+        </article>
+        <!-- /Panel -->
+
+                       <!-- Panel -->
+        <article class="panel panel-info panel-outline">
+
+            <!-- Icon -->
+            <div class="panel-heading icon">
+                <i class="glyphicon glyphicon-info-sign"></i>
+            </div>
+            <!-- /Icon -->
+
+            <!-- Body -->
+            <div class="panel-body">
+               <span>Q4 2019</span>
+              <p>Tokens on exchange / Contract voting & implementation.</p>
+
+            </div>
+            <!-- /Body -->
+
+        </article>
+        <!-- /Panel -->
+
+                       <!-- Panel -->
+        <article class="panel panel-info panel-outline">
+
+            <!-- Icon -->
+            <div class="panel-heading icon">
+                <i class="glyphicon glyphicon-info-sign"></i>
+            </div>
+            <!-- /Icon -->
+
+            <!-- Body -->
+            <div class="panel-body">
+                  <span>Q1 2020</span>
+              <p>Full project realization.</p>
+            </div>
+            <!-- /Body -->
+
+        </article>
+        <!-- /Panel -->
+
+
+
+
+    </div>
+    <div class="dhn-img">
+                     <img src="http://www.crudecoin.io/seed2/img/crudecoin-road-map.png" class="responsive-img">
+
+    </div>
+</div>
+
+
 <!-- //Carousel -->
 <div id="partners" class="container">
     <div class="col-md-12">
@@ -530,20 +698,20 @@
 <!-- footer -->
 <div class="footer">
 	<div class="container">
-		<form action="#" method="post">
+		<form action=" " method="post">{% csrf_token %}
 			<div class="col-md-6 footer-left">
-				<input type="text" value="Name" name="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
-				<input type="email" value="Email" name="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
-				<input type="text" value="Mobile Number" name="Mobile Number" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Mobile Number';}" required="">
+				<input type="text" value="Name" name="{{ form.name.name }}" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
+				<input type="email" value="Email" name="{{ form.email.name }}" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+				<input type="text" value="Mobile Number" name="{{ form.number.name }}" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Mobile Number';}" required="">
 			</div>
 			<div class="col-md-6 footer-right">			
-				<textarea name="Message..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>	
+				<textarea name="{{ form.text.name }}" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>
 				<input type="submit" value="Submit Now">	
 			</div>
 			<div class="clearfix"></div>
 				
 		</form>
-		<p class="copy-rights">&copy; 2018 MAZE. Все права защищены | Разработка <a href="#"> IDroid</a></p>
+		<p class="copy-rights">&copy; 2018 MAZE. Все права защищены | Разработка <a href="#">by IDroid</a></p>
 
 	</div>
 </div>

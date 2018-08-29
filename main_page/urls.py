@@ -5,7 +5,7 @@ from django.conf.urls.static import static
 
 
 urlpatterns = [
-                  url(r'^$', views.show_page, name='show_page'),
+                  url(r'^$', views.landing, name='landing'),
 
 
 ]
